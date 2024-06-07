@@ -16,9 +16,7 @@ afterEach(() => {
   container = null;
 });
 
-
-
-
+//tests 
  test('test that App component doesn\'t render dupicate Task', () => {
   render(<App />);
  });
@@ -30,8 +28,6 @@ afterEach(() => {
  test('test that App component doesn\'t add a task without due date', () => {
   render(<App />);
  });
-
-
 
  test('test that App component can be deleted thru checkbox', () => {
   render(<App />);
